@@ -12,7 +12,13 @@
             <tbody>
             <% @users.each do |user| %>
               <tr>
-                <td><%= user.positon %></td>
+              	<td>
+                <% if user.positon== 1 %>
+   				 デザイナー
+  				<% else %>
+    			　エンジニア
+  				<% end %>
+  			    </td>
                 <td><%= user.display_name %></td>
               </tr>
               <% end %>

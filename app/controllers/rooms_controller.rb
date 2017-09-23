@@ -6,7 +6,8 @@ class RoomsController < ApplicationController
 	end
   
 	def show
-		@users = User.all
+		# @users = User.all
+		@users = User.where(room_id: params[:id])
 		
 	end 
 
