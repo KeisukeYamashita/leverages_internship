@@ -1,3 +1,120 @@
 // Place all the styles related to the room controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#progress #title {
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.page-header {
+	
+}
+#rooms #consensus{
+	background-color:white;
+	float: left;
+}
+#progress #member {
+	font-size: 16px;
+	background: #00b400;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding:  10px;
+	padding-right: 20px;
+}
+#progress .position{
+	text-align: left;
+   float: left;
+}
+#progress .name {
+	text-align: right;
+}
+#progress #topic-title {
+	font-size: 21px;
+	text-align: left;
+	padding: 12px;
+	margin-bottom: 30px;
+}
+
+#progress .tasks {
+	font-size: 16px;
+	padding-left: 10px;
+}
+#progress #task {
+	margin-bottom: 20px;
+}
+#progress .bs-component {
+	
+}
+#progress .odai {
+	border: solid 0.35px #FFCDD2;
+	margin: 10px;
+}
+#progress #theme {
+	
+	font-size: 21px;
+	background-color: #cd3737;
+	color: white;
+	padding: 10px;
+	line-height: 30px;
+}
+#progress #explain {
+	margin:10px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding-bottom: 25px;
+	border-bottom: dashed 0.5px #FFCDD2;
+}
+#progress .row2 {
+	border: solid 0.35px #FFCDD2;
+	margin: 10px;
+}
+#progress #title {
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	color: #cd3737;
+}
+#progress #crown {
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+#progress #job {
+	margin:10px;
+	margin-bottom: 30px;
+}
+#progress #time{
+	margin:10px;
+	margin-bottom: 30px;
+}
+#progress .to-do-header p{
+	display:inline-block;
+ vertical-align:middle;
+	
+}
+
+#progress #topic-title {
+	font-size: 21px;
+	text-align: left;
+	padding: 12px;
+	border-bottom: solid 0.5px #FFCDD2;
+	margin-bottom: 30px;
+}
+.topic {
+	
+}
+#progress .tasks {
+	font-size: 16px;
+	padding-left: 10px;
+}
+#progress #task {
+	margin-bottom: 20px;
+}
+
+.modal-body {
+	text-align: center;
+}

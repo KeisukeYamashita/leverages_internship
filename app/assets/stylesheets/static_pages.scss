@@ -1,26 +1,120 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-#s_login_main {
-	width:375px;
-	height:667px;
-	background-color:skyblue;
-	padding:30px 10px;
+#login .background {
+	background-color: #cd3737
 }
 
-.s_login_content {
-	width:260px;
-	margin:0px auto;
-	text-align:center;
+#login .container {
+	background-color: #cd3737
 }
 
-.s_login_img {
-	background-color:pink;
+#login .title_logo {
+  height: 500px;
+  position: relative;
 }
 
-.s_login_button {
-	color:pink;
+#login .title_logo img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
+#login .login_btn {
+  height: 0px;
+  position: relative;
+}
 
+#login .login_btn p {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FF6F00;
+	text-size: 22px;
+	width: 200px;
+	height: 36px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#login .login_btn a {
+		color: #FFF;
+}
+
+#login .login_btn a:link    { color: #FFF; }
+#login .login_btn a:visited { color: #FFF; }
+#login .login_btn a:hover   { color: #FFF; }
+#login .login_btn a:active  { color: #FFF; }
+
+#detail .odai {
+	border: solid 0.35px #FFCDD2;
+	margin: 10px;
+}
+#detail #theme {
+	
+	font-size: 21px;
+	background-color: #cd3737;
+	color: white;
+	padding: 10px;
+	line-height: 30px;
+}
+#detail #explain {
+	margin:10px;
+	margin-top: 30px;
+	font-size: 16px;
+	padding-bottom: 25px;
+	border-bottom: dashed 0.5px #FFCDD2;
+}
+#detail .row2 {
+	border: solid 0.35px #FFCDD2;
+	margin: 10px;
+}
+#detail #title {
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	color: #cd3737;
+}
+#detail #crown {
+	font-size: 21px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+#detail #job {
+	margin:10px;
+	margin-bottom: 30px;
+}
+#detail #time{
+	margin:10px;
+	margin-bottom: 30px;
+}
+#detail .to-do-header p{
+	display:inline-block;
+ vertical-align:middle;
+	
+}
+
+#detail #topic-title {
+	font-size: 21px;
+	text-align: left;
+	padding: 12px;
+	border-bottom: solid 0.5px #FFCDD2;
+	margin-bottom: 30px;
+}
+.topic {
+	
+}
+#detail .tasks {
+	font-size: 16px;
+	padding-left: 10px;
+}
+#detail #task {
+	margin-bottom: 20px;
+}
