@@ -4,7 +4,7 @@ class RoomsController < ApplicationController
 	end
   
 	def show
-		@user = User.all
+		@users = User.all
 	end 
 
 	def new
