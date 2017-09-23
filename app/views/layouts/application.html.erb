@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Leva</title>
+    <title>Project Quest</title>
     <%= csrf_meta_tags %>
+
+    <style type="text/css">
+	.navbar-toggle {
+	    z-index: 2;
+	}
+	 
+	.navbar-brand-center {
+	    position: absolute;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    text-align:center;
+	    margin: auto;
+	}
+	 
+	@media (min-width: 768px) {
+	    .navbar-brand-center {
+	        margin-left: 0 !important;
+	    }
+	}
+	</style>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+
+  <header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand navbar-brand-center">Project Quest</a>
+      </div>
+    </div>
+  </div>
+  </header>
 
   <body>
     <%= yield %>
