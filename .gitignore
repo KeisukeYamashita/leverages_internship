@@ -20,6 +20,7 @@ bundle/vendor/*
 
 /node_modules
 /yarn-error.log
+/vendor/bundle
 
 .byebug_history
 
@@ -32,6 +33,3 @@ bundle/vendor/*
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Ignore Gems
-Gemfile.lock
