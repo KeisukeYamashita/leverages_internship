@@ -1,13 +1,10 @@
 class RoomsController < ApplicationController
-
-	
 	def index
 
 	end
   
 	def show
-		@users = User.all
-		
+		@user = User.all
 	end 
 
 	def new
