@@ -5,7 +5,7 @@
 # property set.  Don't declare `role :all`, it's a meta role.
 
 set :production
-set :branch, 'master'
+set :branch, 'deploy'
 
 role :app, %w{k-fukuda@13.115.53.172}
 role :web, %w{k-fukuda@13.115.53.172}
