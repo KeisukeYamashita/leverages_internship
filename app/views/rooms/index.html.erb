@@ -1,4 +1,6 @@
+
 <body id="rooms">
+
   <div id="header"> 
     <div class="header_logo"> 
       <%= link_to "Project Quest",root_path%> 
@@ -110,5 +112,14 @@
         </div><!-- panel-collapse -->
       </div><!-- panel -->
     </div><!-- panel-group -->
+  </div>
+  <div id="consensus">
+    <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">本当に参加しますか？</h4>
+      </div>
+      <div class="modal-body">
+        <%= button_to "参加", room_path(2), method: :get %>
+        <button type="button" class="btn btn-default" data-dismiss="modal">いいえ</button>
+      </div>
   </div>
 </body>
