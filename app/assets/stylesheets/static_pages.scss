@@ -1,26 +1,43 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
-#s_login_main {
-	width:375px;
-	height:667px;
-	background-color:skyblue;
-	padding:30px 10px;
+html {
+	background-color: #D32F2F
 }
 
-.s_login_content {
-	width:260px;
-	margin:0px auto;
-	text-align:center;
+.background {
+	background-color: #D32F2F
 }
 
-.s_login_img {
-	background-color:pink;
+.container {
+	background-color: #D32F2F
 }
 
-.s_login_button {
-	color:pink;
+.img_box {
+  height: 300px;
+  position: relative;
 }
 
+.img_box img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
 
+.btn-login {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FF6F00;
+	color: #FFF;
+	text-size: 22px;
+	width: 200px;
+	height: 36px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

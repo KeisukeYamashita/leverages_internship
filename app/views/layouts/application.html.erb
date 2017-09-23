@@ -8,12 +8,6 @@
 	</head>
 
 	<body>
-		<div id="header">
-			<div class="header_logo">
-				<%= link_to "Project Quest",root_path%>
-			</div>
-		</div>
 		<%= yield %>
 	</body>
 </html>
-<%= debug(params) if Rails.env.development? %>
