@@ -35,10 +35,11 @@ mysql -u root
 create table leverage_internship
 ```
 
-Then. put your seed data.
+Then put your seed data.
 
 ```
 bundle exec rake db:seed
 ```
 
 ## How to launch
+TODO
