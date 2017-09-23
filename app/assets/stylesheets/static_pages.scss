@@ -11,12 +11,12 @@ html {
 	background-color: #D32F2F
 }
 
-.img_box {
-  height: 300px;
+.title_logo {
+  height: 500px;
   position: relative;
 }
 
-.img_box img {
+.title_logo img {
   position: absolute;
   top: 0;
   right: 0;
@@ -25,7 +25,12 @@ html {
   margin: auto;
 }
 
-.btn-login {
+.login {
+  height: 0px;
+  position: relative;
+}
+
+.login p {
 	text-align: center;
 	vertical-align: middle;
 	background-color: #FF6F00;
