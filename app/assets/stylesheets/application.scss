@@ -16,3 +16,27 @@
 
 @import "bootstrap-sprockets";
 @import "honoka";
+
+html {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+
+#header {
+	width:100%;
+	padding:5px 10px;
+	box-sizing:border-box;
+	border-bottom:1px solid black; 
+	position:fixed;
+}
+
+
+.header_logo {
+	width:300px;
+	text-align:center;
+	font-size:32px;
+	margin:0px auto;
+}
+

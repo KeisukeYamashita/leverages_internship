@@ -1,69 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Project Quest</title>
-    <%= csrf_meta_tags %>
+	<head>
+		<title>Project Quest</title>
+		<%= csrf_meta_tags %>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	</head>
 
-    <style type="text/css">
-    /* タイトルのセンタリングのため*/
-	.navbar-toggle {
-	    z-index: 2;
-	}
-	 
-	.navbar-brand-center {
-	    position: absolute;
-	    width: 100%;
-	    left: 0;
-	    top: 0;
-	    text-align:center;
-	    margin: auto;
-	}
-	 
-	@media (min-width: 768px) {
-	    .navbar-brand-center {
-	        margin-left: 0 !important;
-	    }
-	}
-	</style>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
-
-<header style="margin-bottom: 79px">
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a href="/" class="navbar-brand navbar-brand-center">Project Quest</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" style="margin: 10px">
-				<p style="margin: 0px">
-				<%= image_tag 'search.png', :width => '32', :height => '32' %>
-				</p>
-        </button>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar-main">
-        <ul class="nav navbar-nav">
-  	      <form class="navbar-form navbar-left" role="search">
-  	      	<p>場所</p>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">検索</button>
-          </form>
-          <div class="checkbox">
-					  <label><input type="checkbox" value="">エンジニア</label>
-					</div>
-					<div class="checkbox">
-					  <label><input type="checkbox" value="">デザイナー</label>
-					</div>
-        </ul>
-      </div>
-    </div>
-  </div>
-</header>
-
-    <%= yield %>
-  </body>
+	<body>
+<!-- 		<div id="header"> 
+      <div class="header_logo"> 
+        <%= link_to "Project Quest",root_path%> 
+      </div> 
+    </div>  -->
+		<%= yield %>
+	</body>
 </html>
