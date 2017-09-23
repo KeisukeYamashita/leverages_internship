@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+#
+
+development:
+	adapter: mysql2
+	database: leverage_internship
+	host: localhost
+	username: root
+	paseword:
+	encoding: utf8

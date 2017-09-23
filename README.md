@@ -1,24 +1,20 @@
-# README
+# Product Quest
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Abstract
 
-Things you may want to cover:
+## How to download
 
-* Ruby version
+Git clone this repositry to your pc.
 
-* System dependencies
+```
+git init
+git clone git@github.com:KeisukeYamashita/leverages_internship.git
+```
 
-* Configuration
+Then. put your seed data.
 
-* Database creation
+```
+bundle exec rake db:seed
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to launch
