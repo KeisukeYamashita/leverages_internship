@@ -8,9 +8,12 @@
 #
 #
 
-@room1 = Room.create(name:"バンドのプロモーションサイトの構築")
-@room1.users.create(display_name:"奥野")
+@room1 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+for i in 1..10
+	@room1.users.create(display_name:"奥野",position:10)
+end
 
-@room2 = Room.create(name:"架空の写真家のポートフォリオ")
-@room2.users.create(display_name:"すいゆう")
-@room2.users.create(display_name:"やました")
+@room2 = Room.create(name:"架空の写真家のポートフォリオ",location:"東京")
+for i in 1..10
+	@room2.users.create(display_name:"ヤマシタ")
+end
