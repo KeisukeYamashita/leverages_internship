@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20170923124014) do
 
   create_table "rooms", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "name"
-    t.string   "capasity"
+    t.integer  "capasity"
     t.integer  "location_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20170923124014) do
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "display_name"
-    t.integer  "positon"
+    t.integer  "position"
     t.integer  "room_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
