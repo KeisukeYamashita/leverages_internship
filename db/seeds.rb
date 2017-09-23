@@ -8,10 +8,9 @@
 #
 #
 
-development:
-	adapter: mysql2
-	database: leverage_internship
-	host: localhost
-	username: root
-	paseword:
-	encoding: utf8
+@room1 = Room.create(name:"バンドのプロモーションサイトの構築")
+@room1.users.create(display_name:"奥野")
+
+@room2 = Room.create(name:"架空の写真家のポートフォリオ")
+@room2.users.create(display_name:"すいゆう")
+@room2.users.create(display_name:"やました")
