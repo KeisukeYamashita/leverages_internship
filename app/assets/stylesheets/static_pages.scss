@@ -34,7 +34,6 @@ html {
 	text-align: center;
 	vertical-align: middle;
 	background-color: #FF6F00;
-	color: #FFF;
 	text-size: 22px;
 	width: 200px;
 	height: 36px;
@@ -46,3 +45,12 @@ html {
   left: 0;
   margin: auto;
 }
+
+.login a {
+		color: #FFF;
+}
+
+.login a:link    { color: #FFF; }
+.login a:visited { color: #FFF; }
+.login a:hover   { color: #FFF; }
+.login a:active  { color: #FFF; }
