@@ -27,11 +27,13 @@
                 </tr>
               </thead>
               <tbody>
+		      <% @rooms.each do | room | %>
                 <tr>
-                  <td align="center">@0meo</td>
-                  <td align="center"><button class="btn btn-primary" type="button">Join</button></td>
-                  <td>茨城県つくば市</td>
-                </tr>
+		<td align="center"><%= designer(room) %></td>
+		<td align="center"><%= engineer(room) %></td>
+		<td><%= room.location %></td>
+		</tr>
+	<% end %>
                 <tr>
                   <td align="center">やました</td>
                   <td align="center"><button class="btn btn-primary" type="button">Join</button></td>
