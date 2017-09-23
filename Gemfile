@@ -33,6 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
+
+# Use rails ujs
+gem "rails-ujs"
+
+# Use jQuery
+gem "jquery"
+# Use jQuery for rails
+
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do

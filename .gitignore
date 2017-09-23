@@ -32,3 +32,6 @@ bundle/vendor/*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignore Gems
+Gemfile.lock
