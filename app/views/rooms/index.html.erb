@@ -12,26 +12,19 @@
             </tr>
           </thead>
           <tbody>
+            <% @rooms.each do | room | %>
             <tr>
-              <td>@0meo</td>
-              <td><button class="btn btn-default" type="button">Join</button></td>
-              <td>茨城県つくば市</td>
-            </tr>
-            <tr>
-              <td>やました</td>
-              <td><button class="btn btn-default" type="button">Join</button></td>
-              <td>東京都</td>
-            </tr>
-            <tr>
-              <td><button class="btn btn-default" type="button">Join</button></td>
-              <td>ゆうすい</td>
-              <td>京都府</td>
-            </tr>
+		    <td><%= designer(room) %></td>
+		    <td><%= engineer(room) %></td>
+                    <td><%= room.location %></td>
+	    </tr>
+    <% end %>
           </tbody>
         </table>
       </div>
     </div><!-- panel-collapse -->
   </div><!-- panel -->
+  
   <div class="panel panel-default">
     <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse2">人気バンドのプロモーションサイトを作ろう</a>
     <div id="collapse2" class="panel-collapse collapse">

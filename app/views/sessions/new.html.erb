@@ -1,32 +1,19 @@
 <div class="session_form_container">
 	<div class= "session_form_items">
+		<% form_for(@user) do |f| %>
 		<div class = "session_form_item">
-			<div class = "session_form_label">
-				<p>twitterのユーザー名<p>
-
-			</div>
-			<div class = "session_form_text_field">
-			</div>
+			<%= f.label :display_name %>
+			<% f.text_field :display_name %>
 		</div>
 		<div class = "session_form_item">
-			<div class = "session_form_label">
-				<p>パスワード<p>
-
-			</div>
-			<div class = "session_form_text_field">
-			</div>
-
+			<%= f.label :password %>
+			<%= f.password_field :password %>
 		</div>
 		<div class = "session_form_item">
-			<div class = "session_form_label">
-				<p>パスワード確認用<p>
-
-			</div>
-			<div class = "session_form_text_field">
-			</div>
+			<%= f.label :password_conformation %>
+			<%= f.password_field :password_conformation %>>
 		</div>
-		<div class = "session_form_summit_button">
-			<p>ここボタン</p>
-		</div>
+		<%= f.submit "ここボタン" %>
+	<% end %>
 	</div>
 </div>
