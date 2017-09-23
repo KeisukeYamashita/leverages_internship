@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 
+# Use Twitter API
+gem 'twitter'
+
 # Use rails ujs
 gem "rails-ujs"
 
