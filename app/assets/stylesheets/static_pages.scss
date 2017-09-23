@@ -1,22 +1,17 @@
-
-html {
+#login .background {
 	background-color: #D32F2F
 }
 
-.background {
+#login .container {
 	background-color: #D32F2F
 }
 
-.container {
-	background-color: #D32F2F
-}
-
-.title_logo {
+#login .title_logo {
   height: 500px;
   position: relative;
 }
 
-.title_logo img {
+#login .title_logo img {
   position: absolute;
   top: 0;
   right: 0;
@@ -25,12 +20,12 @@ html {
   margin: auto;
 }
 
-.login {
+#login .login_btn {
   height: 0px;
   position: relative;
 }
 
-.login p {
+#login .login_btn p {
 	text-align: center;
 	vertical-align: middle;
 	background-color: #FF6F00;
@@ -46,11 +41,11 @@ html {
   margin: auto;
 }
 
-.login a {
+#login .login_btn a {
 		color: #FFF;
 }
 
-.login a:link    { color: #FFF; }
-.login a:visited { color: #FFF; }
-.login a:hover   { color: #FFF; }
-.login a:active  { color: #FFF; }
+#login .login_btn a:link    { color: #FFF; }
+#login .login_btn a:visited { color: #FFF; }
+#login .login_btn a:hover   { color: #FFF; }
+#login .login_btn a:active  { color: #FFF; }
