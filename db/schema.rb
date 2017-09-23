@@ -24,9 +24,10 @@ ActiveRecord::Schema.define(version: 20170923082605) do
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "display_name"
     t.integer  "position"
+    t.string   "password_digest"
     t.integer  "room_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
     t.index ["room_id"], name: "index_users_on_room_id", using: :btree
   end
 
