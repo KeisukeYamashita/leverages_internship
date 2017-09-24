@@ -39,10 +39,17 @@
   bottom: 0;
   left: 0;
   margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 #login .login_btn a {
 		color: #FFF;
+		text-decoration: none;
+		line-height: 10px;
+		vertical-align:middle;
 }
 
 #login .login_btn a:link    { color: #FFF; }
