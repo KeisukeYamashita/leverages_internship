@@ -26,4 +26,9 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  database: leverage_internship
+  host: localhost
+  username: dbuser
+  password: password
