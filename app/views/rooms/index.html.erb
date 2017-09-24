@@ -16,7 +16,7 @@
   <div class="container">
     <div class="panel-group" id="accordion">
       <div class="panel panel-default hoge">
-        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse1">▷ 写真家のポートフォリオサイトを作ろう</a>
+        <a class="list-group-item kadai" data-toggle="collapse" data-parent="#accordion" href="#collapse1">▷ 写真家のポートフォリオサイトを作ろう</a>
         <div id="collapse1" class="panel-collapse collapse">
           <div class="panel-body">
             <p><a>募集をする</a><a>　</a><a href="/promotion">詳細を見る</a></p>
@@ -29,23 +29,13 @@
                 </tr>
               </thead>
               <tbody>
-		      <% @rooms.each do | room | %>
+		          <% @rooms.each do | room | %>
                 <tr>
-		<td align="center"><%= designer(room) %></td>
-		<td align="center"><%= engineer(room) %></td>
-		<td><%= room.location %></td>
-		</tr>
-	<% end %>
-                <tr>
-                  <td align="center">やました</td>
-                  <td align="center"><button class="btn btn-primary" onclick="location.href='/rooms/2'" type="button">Join</button></td>
-                  <td>東京都</td>
-                </tr>
-                <tr>
-                  <td align="center"><button class="btn btn-primary" onclick="location.href='/rooms/2'" type="button">Join</button></td>
-                  <td align="center">ゆうすい</td>
-                  <td>京都府</td>
-                </tr>
+                  <td align="center"><%= designer(room) %></td>
+                  <td align="center"><%= engineer(room) %></td>
+  		            <td><%= room.location %></td>
+		            </tr>
+	             <% end %>
               </tbody>
             </table>
           </div>
@@ -53,10 +43,17 @@
       </div><!-- panel -->
 
       <div class="panel panel-default">
-        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse2">▷ 人気バンドのプロモーションサイトを作ろう</a>
+        <a class="list-group-item kadai" data-toggle="collapse" data-parent="#accordion" href="#collapse2">▷ 人気バンドのプロモーションサイトを作ろう</a>
         <div id="collapse2" class="panel-collapse collapse">
           <div class="panel-body">
-            <p><a>募集をする</a><a>　</a><a href="/detail">詳細を見る</a></p>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="recruit" align="center"><a>募集をする</a></div>
+              </div>
+              <div class="col-xs-6">
+                <div align="center" class="detail"><a href="/detail">詳細を見る</a></div>
+              </div>
+            </div>
             <table class="table table-striped table-hover ">
               <thead>
                 <tr>
@@ -83,7 +80,7 @@
       </div><!-- panel -->
 
       <div class="panel panel-default">
-        <a class="list-group-item" data-toggle="collapse" data-parent="#accordion" href="#collapse3">▷ チャットツールを作ろう</a>
+        <a class="list-group-item kadai" data-toggle="collapse" data-parent="#accordion" href="#collapse3">▷ チャットツールを作ろう</a>
         <div id="collapse3" class="panel-collapse collapse">
           <div class="panel-body">
             <p><a>募集をする</a><a>　</a><a href="/detail">詳細を見る</a></p>
