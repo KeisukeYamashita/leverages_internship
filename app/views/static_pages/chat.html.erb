@@ -1,40 +1,42 @@
 <div id="detail">
-    <div class="odai">
-        <h1 id="theme">チャットツールを作ろう</h1>
-        <p id="explain">あなたは「人と人を繋げる」チャットサービスを作ることになりました。とにかく、誰にでも親しみやすく、ひろい年代に使ってもらえるようなサービスを作ってください。</p>
-        <p id="job">エンジニア<%= image_tag 'human.png' , :size => '22x22' %>   デザイナー<%= image_tag 'human.png' , :size => '22x22' %></p>
-        <p id="time">目安時間:14時間</p>
-    </div>
-    <div class= "row2">
-    	<div class="to-do-header">
-            <h1 id="crown"><%= image_tag 'crown.png' , :size => '22x22' %></h1>
-            <h1 id="title">達成条件</h1>
+    <div class="container">
+        <div class="odai">
+            <h1 id="theme">チャットツールを作ろう</h1>
+            <p id="explain">あなたは「人と人を繋げる」チャットサービスを作ることになりました。とにかく、誰にでも親しみやすく、ひろい年代に使ってもらえるようなサービスを作ってください。</p>
+            <p id="job">エンジニア<%= image_tag 'human.png' , :size => '22x22' %>   デザイナー<%= image_tag 'human.png' , :size => '22x22' %></p>
+            <p id="time">目安時間:14時間</p>
         </div>
+        <div class= "row2">
+        	<div class="to-do-header">
+                <h1 id="crown"><%= image_tag 'crown.png' , :size => '22x22' %></h1>
+                <h1 id="title">達成条件</h1>
+            </div>
 
-        <div class="challange">
-        	<div class="topic">
-        		<h1 id="topic-title">画面を作る</h1>
+            <div class="challange">
+            	<div class="topic">
+            		<h1 id="topic-title">画面を作る</h1>
+            	</div>
+            	<div class="tasks">
+            		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>チャットが行われる場所のレイアウトを実装する。
+        </label> <br />
+            		<label id ="task"><input type="checkbox" value="">
+                    <span style="margin-right: 20px;"></span>チャットルームには5人しか入れないような仕様にする。</label> <br />
+            		<label id ="task"><input type="checkbox" value="">
+                    <span style="margin-right: 20px;"></span>LINEのような吹き出しで会話をできるようにする。</label> 
+            	</div>
         	</div>
-        	<div class="tasks">
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>チャットが行われる場所のレイアウトを実装する。
-    </label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-                <span style="margin-right: 20px;"></span>チャットルームには5人しか入れないような仕様にする。</label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-                <span style="margin-right: 20px;"></span>LINEのような吹き出しで会話をできるようにする。</label> 
+        	<div class="challange">
+            	<div class="topic">
+    			<h1 id="topic-title">広く、誰でも使ってもらえるような機能を作る</h1>
+            	</div>
+            	<div class="tasks">
+            		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>チャットルームに入る前にメンバーを知ることができて、すぐ会話ができる。
+        </label> <br />
+        <label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>思い出を送り合えるように画像を送れるような機能を実装する。</label>
+            	</div>
         	</div>
-    	</div>
-    	<div class="challange">
-        	<div class="topic">
-			<h1 id="topic-title">広く、誰でも使ってもらえるような機能を作る</h1>
-        	</div>
-        	<div class="tasks">
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>チャットルームに入る前にメンバーを知ることができて、すぐ会話ができる。
-    </label> <br />
-    <label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>思い出を送り合えるように画像を送れるような機能を実装する。</label>
-        	</div>
-    	</div>
-    	
+        	
 
+        </div>
     </div>
 </div>
