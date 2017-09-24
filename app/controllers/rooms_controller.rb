@@ -4,6 +4,7 @@ class RoomsController < ApplicationController
 	end
   
 	def show
+		@users = User.where(room_id: params[:id])
 	end 
 
 	def new
