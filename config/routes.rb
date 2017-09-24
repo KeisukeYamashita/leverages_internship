@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get "/new/:id", to: "rooms#new"
   resources :rooms
   get "/signup", to:"sessions#new"
-  resources :users
+  post "/signup", to:"sessions#create"
 end
 
