@@ -9,11 +9,33 @@
 #
 
 @room1 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
-for i in 1..10
-	@room1.users.create(display_name:"奥野",position:10)
-end
+@user1 = @room1.users.create(display_name:"thegirlsays42",position:10,password:"h",password_digest:"h")
 
-@room2 = Room.create(name:"架空の写真家のポートフォリオ",location:"東京")
-for i in 1..10
-	@room2.users.create(display_name:"ヤマシタ")
-end
+@room2 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user2 = @room2.users.create(display_name:"komiyama",position:10,password:"h",password_digest:"h")
+
+@room3 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user3 = @room3.users.create(display_name:"kuri55542",position:10,password:"h",password_digest:"h")
+
+@room4 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user4 = @room4.users.create(display_name:"zzzz99999",position:10,password:"h",password_digest:"h")
+
+@room5 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user5 = @room5.users.create(display_name:"mizuki0015",position:10,password:"h",password_digest:"h")
+
+@room6 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user6 = @room6.users.create(display_name:"itsmemario22",position:10,password:"h",password_digest:"h")
+
+@room7 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user7 = @room7.users.create(display_name:"kokokofa",position:10,password:"h",password_digest:"h")
+
+@room8 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user8 = @room8.users.create(display_name:"bobchan156",position:10,password:"h",password_digest:"h")
+
+@room9 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user9 = @room9.users.create(display_name:"bokodea",position:10,password:"h",password_digest:"h")
+
+@room10 = Room.create(name:"バンドのプロモーションサイトの構築",location:"京都")
+@user10 = @room10.users.create(display_name:"kokofewa361",position:10,password:"h",password_digest:"h")
+
+
