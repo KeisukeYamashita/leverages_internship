@@ -1,7 +1,10 @@
 class StaticPagesController < ApplicationController
-	def login
+	def promotion
 	end
 
-	def detail
+	def portfolio
+	end
+
+	def chat
 	end
 end
