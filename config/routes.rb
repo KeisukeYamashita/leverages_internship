@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get "/portfolio", to: "static_pages#portfolio"
   get "/promotion", to:"static_pages#promotion"
   get "/chat", to:"static_pages#chat"
+  get "/new", to:"rooms#new"
+  get "/new/:id", to: "rooms#new"
   resources :rooms
   get "/signup", to:"sessions#new"
   resources :users
