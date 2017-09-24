@@ -3,6 +3,7 @@ class User < ActiveRecord::Migration[5.0]
 	  create_table :users do |t|
 		  t.string :display_name
 		  t.integer :position
+		  t.string :password_digest
 		  t.belongs_to :room
 		  t.timestamps
 	  end

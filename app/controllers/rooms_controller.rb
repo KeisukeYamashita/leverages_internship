@@ -4,13 +4,13 @@ class RoomsController < ApplicationController
 	end
   
 	def show
-		@q = User.where(room_id: params[:id]).uniq
-		@users = @q
 	end 
 
 	def new
 
 	end
 
+	def create
+	end
 
 end
