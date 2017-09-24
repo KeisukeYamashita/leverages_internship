@@ -30,6 +30,7 @@ html {
 	box-sizing:border-box;
 	border-bottom:1px solid black; 
 	position:fixed;
+	background-color: #cd3737;
 }
 
 
@@ -39,4 +40,14 @@ html {
 	font-size:32px;
 	margin:0px auto;
 }
+
+.header_logo a {
+	text: #FFF;
+	text-decoration: none;
+}
+
+.header_logo a:link { color: #fff; }
+.header_logo a:visited { color: #fff; }
+.header_logo a:hover { color: #fff; }
+.header_logo a:active { color: #fff; }
 

@@ -17,6 +17,37 @@
 	margin:100px;
 }
 
+#new{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 24px;
+}
+
+#new .plain {
+	text-align: center;
+	margin-bottom:15px;
+}
+#new #theme {
+	text-align: center;
+	font-weight: 600;
+
+}	
+#new #free {
+	width: 140px;
+}
+#new #place {
+	margin-top:5px;
+	text-align: center;
+	margin-bottom:15px;
+}	
+#new #ok {
+	width: 81px;
+	height: 44px;
+	color: white;
+	background-color: #cd3737;
+	text-align: center;
+}
+
 #rooms .kadai {
 	background-color: #cd3737;
 	color: #FFF;
@@ -40,4 +71,13 @@
 
 #rooms .detail a {
 	color: #FFF;
+}
+
+#rooms .btn-join {
+	color: #fff;
+	background-color: #ff6f00;
+	vertical-align: middle;
+	margin-top: 0px;
+	border: 0.35px;
+	border-color: #b4b4b5;
 }
