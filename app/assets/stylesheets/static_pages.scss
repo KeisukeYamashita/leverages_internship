@@ -61,10 +61,19 @@ position:absolute; bottom:0%; right:0%;
 #login .login_btn a:hover   { color: #FFF; }
 #login .login_btn a:active  { color: #FFF; }
 
+#detail {
+	padding-top: 80px;	
+}
+
 #detail .odai {
 	border: solid 0.35px #FFCDD2;
 	margin: 10px;
 }
+
+#detail .odai h1  {
+	margin: 0px;
+}
+
 #detail #theme {
 	
 	font-size: 21px;
