@@ -1,0 +1,41 @@
+<div id="header"> 
+	<div class="header_logo"> 
+		<%= link_to "Project Quest",root_path%> 
+	</div> 
+</div> 
+
+<div class="row">
+<div class="form_container">
+	<%= form_for(@user) do |f| %>
+		<div class= "form_item">
+			<div class = "form_label">
+				<%= f.label :display_name,"twitterのアカウント名を入力してください" %>
+			</div>
+			<div class= "form_field">
+				<%= f.text_field :display_name,placeholder:"（デモ用) @bobchan1915" %>
+			</div>
+                </div>
+
+		<div class="form_item">
+			<div class="form_label">
+				<%= f.label :password %>
+			</div>
+			<div class="form_field">
+				<%= f.password_field :password,placeholder:"パスワードを入力してください"%>
+			</div>
+		</div>
+
+		<div class="form_item">
+			<div class="form_label">
+				<%= f.label :password_confirmation, "Confirmation"%>
+			</div>
+			<div class="form_field">
+				<%= f.password_field :password_confirmation,placeholder:"確認用にパスワードを再入力してください"%>
+			</div>
+		</div>
+
+		<div class = "form_item">
+			<%= f.submit "ログインする", class: "btn btn-primary" %>
+		</div>
+	<% end %>
+</div>
