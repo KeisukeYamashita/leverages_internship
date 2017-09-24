@@ -7,7 +7,19 @@
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
-
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+        $(function() {
+            $('#checkBtn').click(function(){
+                if ( $("input[type=checkbox]:not(:checked)").size() != 0 ) {
+                    alert("まだチェックされていません。頑張ってください");
+                } else {
+                	alert("おめでとうございます！！！お疲れ様でした！！");
+                	location.href='/rooms';
+                }
+            });
+        } );
+        </script>
 
 <!-- 		<div id="header"> 
       <div class="header_logo"> 
