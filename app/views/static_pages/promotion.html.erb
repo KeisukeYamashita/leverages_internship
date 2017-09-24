@@ -1,8 +1,15 @@
+
+<div id="header"> 
+    <div class="header_logo"> 
+      <%= link_to "Project Quest",root_path%> 
+    </div> 
+</div>
+
 <div id="detail">
-    <div class="container">
+<div class="container">
     <div class="odai">
         <h1 id="theme"> 人気バンドのプロモーションサイトを作ろう </h1>
-	<p id="explain">あなたはロックバンド「Next Wave」のプロモーションサイトに携わることになりました。Next Waveは若者を中心に人気があり，かっこよく仕上げて欲しくて、コンセプトページが必要です。また，サイトに来てくれた人に宣伝するために，彼らのミュージックビデオの動画が再生できると良さそうです。エンジニアとデザイナーで協力して彼らのプロモーションサイトを作ってください！</p>
+	   <p id="explain">あなたはロックバンド「Next Wave」のプロモーションサイトに携わることになりました。Next Waveは若者を中心に人気があり，かっこよく仕上げて欲しくて、コンセプトページが必要です。また，サイトに来てくれた人に宣伝するために，彼らのミュージックビデオの動画が再生できると良さそうです。エンジニアとデザイナーで協力して彼らのプロモーションサイトを作ってください！</p>
         <p id="job">エンジニア<%= image_tag 'human.png' , :size => '22x22' %>   デザイナー<%= image_tag 'human.png' , :size => '22x22' %></p>
         <p id="time">目安時間:6時間</p>
     </div>
@@ -17,21 +24,29 @@
         		<h1 id="topic-title">要件に合わせた画面を作る</h1>
         	</div>
         	<div class="tasks">
-			<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>Next Waveはいけいけなバンド。モダンなデザインでばしっと決めてください。
-    </label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-				<span style="margin-right: 20px;"></span>Next Waveは「情念あふれるバンドマン」です。デザインで情熱を訴えかけるデザインをしてください。</label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-                <span style="margin-right: 20px;"></span>Next Waveの支持層は20代が主です。20代に受けるデザインを。</label> 
+                <div id ="task" class="checkbox">
+                  <label><input type="checkbox" value="">Next Waveはいけいけなバンド。モダンなデザインでばしっと決めてください。</label>
+                </div>
+                <div id ="task" class="checkbox">
+                  <label><input type="checkbox" value="">Next Waveは「情念あふれるバンドマン」です。デザインで情熱を訴えかけるデザインをしてください。</label>
+                </div>
+                <div id ="task" class="checkbox">
+                  <label><input type="checkbox" value="">Next Waveの支持層は20代が主です。20代に受けるデザインを。</label>
+                </div>
         	</div>
     	</div>
+
     	<div class="challange">
         	<div class="topic">
         		<h1 id="topic-title">インパクトを与えるデザインを与える画面に変えてください。</h1>
         	</div>
         	<div class="tasks">
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>クリックすると凄まじい稲妻が走るデザインにしてください。</label> <br />
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>もどるボタンを押されたときに警告音が鳴るようにしてください。</label>
+                <div id ="task" class="checkbox">
+                  <label><input type="checkbox" value="">クリックすると凄まじい稲妻が走るデザインにしてください。</label>
+                </div>
+                <div id ="task" class="checkbox">
+                  <label><input type="checkbox" value="">もどるボタンを押されたときに警告音が鳴るようにしてください。</label>
+                </div>
         	</div>
     	</div>
     </div>
