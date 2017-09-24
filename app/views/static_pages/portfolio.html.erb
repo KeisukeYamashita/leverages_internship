@@ -1,40 +1,42 @@
 <div id="detail">
-    <div class="odai">
-        <h1 id="theme">写真家のポートフォリオサイトを作ろう</h1>
-        <p id="explain">あなたは友人のポートフォリアを手伝ってあげることになりました。その写真家は老舗を構えていて、レトロな雰囲気を残しつつも、若者も受けがいいようなポートフォリオを欲しいと思っています。</p>
-        <p id="job">エンジニア<%= image_tag 'human.png' , :size => '22x22' %>   デザイナー<%= image_tag 'human.png' , :size => '22x22' %></p>
-        <p id="time">目安時間:10時間</p>
-    </div>
-    <div class= "row2">
-    	<div class="to-do-header">
-            <h1 id="crown"><%= image_tag 'crown.png' , :size => '22x22' %></h1>
-            <h1 id="title">達成条件</h1>
+    <div class="container">
+        <div class="odai">
+            <h1 id="theme">写真家のポートフォリオサイトを作ろう</h1>
+            <p id="explain">あなたは友人のポートフォリアを手伝ってあげることになりました。その写真家は老舗を構えていて、レトロな雰囲気を残しつつも、若者も受けがいいようなポートフォリオを欲しいと思っています。</p>
+            <p id="job">エンジニア<%= image_tag 'human.png' , :size => '22x22' %>   デザイナー<%= image_tag 'human.png' , :size => '22x22' %></p>
+            <p id="time">目安時間:10時間</p>
         </div>
+        <div class= "row2">
+        	<div class="to-do-header">
+                <h1 id="crown"><%= image_tag 'crown.png' , :size => '22x22' %></h1>
+                <h1 id="title">達成条件</h1>
+            </div>
 
-        <div class="challange">
-        	<div class="topic">
-        		<h1 id="topic-title">画面を作る</h1>
+            <div class="challange">
+            	<div class="topic">
+            		<h1 id="topic-title">画面を作る</h1>
+            	</div>
+            	<div class="tasks">
+            		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>写真が30枚表示できるようなプログラムを作る。cssのみを使用する。
+        </label> <br />
+            		<label id ="task"><input type="checkbox" value="">
+                    <span style="margin-right: 20px;"></span>javascriptを用いて、より先進的なデザインを導入する。どのようなデザインかはお任せします。</label> <br />
+            		<label id ="task"><input type="checkbox" value="">
+                    <span style="margin-right: 20px;"></span>写真家その人自身の紹介ページを作る</label> 
+            	</div>
         	</div>
-        	<div class="tasks">
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>写真が30枚表示できるようなプログラムを作る。cssのみを使用する。
-    </label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-                <span style="margin-right: 20px;"></span>javascriptを用いて、より先進的なデザインを導入する。どのようなデザインかはお任せします。</label> <br />
-        		<label id ="task"><input type="checkbox" value="">
-                <span style="margin-right: 20px;"></span>写真家その人自身の紹介ページを作る</label> 
+        	<div class="challange">
+            	<div class="topic">
+            		<h1 id="topic-title">画像を投稿する機能を作る</h1>
+            	</div>
+            	<div class="tasks">
+            		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>画像をポートフォリオから追加で投稿できるようなフォームを作る。
+        </label> <br />
+        <label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>画像に撮った日時やメモを残せるような機能を作る。</label>
+            	</div>
         	</div>
-    	</div>
-    	<div class="challange">
-        	<div class="topic">
-        		<h1 id="topic-title">画像を投稿する機能を作る</h1>
-        	</div>
-        	<div class="tasks">
-        		<label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>画像をポートフォリオから追加で投稿できるようなフォームを作る。
-    </label> <br />
-    <label id ="task"><input type="checkbox" value=""><span style="margin-right: 20px;"></span>画像に撮った日時やメモを残せるような機能を作る。</label>
-        	</div>
-    	</div>
-    	
+        	
 
+        </div>
     </div>
 </div>
